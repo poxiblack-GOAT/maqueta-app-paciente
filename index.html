@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maqueta App Paciente</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="showcase">
+    <section class="phone">
+      <header class="topbar">
+        <div class="user">
+          <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=120&q=80" alt="Paciente">
+          <div>
+            <span>Buenos dias</span>
+            <strong>Alex Morgan</strong>
+          </div>
+        </div>
+        <button class="icon-button" aria-label="Notificaciones">⌂</button>
+      </header>
+
+      <h1>Tus<br>Servicios</h1>
+
+      <nav class="chips" aria-label="Categorias">
+        <button class="chip active">Todos</button>
+        <button class="chip">Estados de Cuenta</button>
+        <button class="chip">Farmacia</button>
+        <button class="chip">Historia clinica</button>
+      </nav>
+
+      <article class="service-card featured">
+        <div class="service-head">
+          <div class="specialty">
+            <span class="avatar-icon">🩹</span>
+            <span>Consultas Médicas</span>
+          </div>
+          <span class="time">10:50-02:40</span>
+        </div>
+        <div class="mini-doctors">
+          <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=80&q=80" alt="Doctora">
+          <img src="https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&w=80&q=80" alt="Doctor">
+          <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=80&q=80" alt="Doctor">
+          <span>+9</span>
+        </div>
+        <div class="card-bottom">
+          <h2>Ver<br>Historial clinico</h2>
+          <button class="round-button" aria-label="Abrir">↗</button>
+        </div>
+      </article>
+
+      <article class="service-card">
+        <div class="service-head">
+          <div class="specialty dark">
+            <span class="photo-dot"></span>
+            <span>Estudio de Laboratorio</span>
+          </div>
+          <span class="time light">09:30-04:30</span>
+        </div>
+        <div class="card-bottom">
+          <h2>Ver<br>Estudio</h2>
+          <button class="round-button soft" aria-label="Abrir">↗</button>
+        </div>
+      </article>
+
+      <nav class="bottom-nav" aria-label="Navegacion inferior">
+        <button class="selected">⌂</button>
+        <button>⌕</button>
+        <button>□</button>
+        <button>♙</button>
+      </nav>
+    </section>
+
+    <section class="phone detail-phone">
+      <header class="topbar compact">
+        <button class="icon-button" aria-label="Regresar">‹</button>
+        <div class="actions">
+          <button class="icon-button">⌕</button>
+          <button class="icon-button">□</button>
+        </div>
+      </header>
+
+      <section class="account-hero">
+        <span class="eyebrow">Estado de cuenta</span>
+        <h2>Servicios<br>adquiridos</h2>
+        <p>Resumen de cargos, pagos y saldos pendientes.</p>
+        <div class="balance-card">
+          <span>Saldo pendiente</span>
+          <strong>$2,850.00</strong>
+          <small>Proximo pago: 20 Marzo</small>
+        </div>
+      </section>
+
+      <section class="panel status-panel">
+        <div class="section-title">
+          <h3>Resumen financiero</h3>
+          <a href="#">Detalle</a>
+        </div>
+        <div class="stats">
+          <div class="stat wide">
+            <span>Total facturado</span>
+            <strong>$8,420</strong>
+          </div>
+          <div class="stat">
+            <span>Pagado</span>
+            <strong>$5,570</strong>
+          </div>
+          <div class="stat small">
+            <span>Cargos</span>
+            <strong>5</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel services-panel">
+        <div class="section-title">
+          <h3>Servicios</h3>
+          <span>Marzo 2024</span>
+        </div>
+        <div class="service-list">
+          <article class="account-item">
+            <span class="service-icon">🩺</span>
+            <div>
+              <strong>Consultas medicas</strong>
+              <small>2 consultas familiares</small>
+            </div>
+            <b>$1,200</b>
+          </article>
+          <article class="account-item">
+            <span class="service-icon">🧪</span>
+            <div>
+              <strong>Estudios</strong>
+              <small>Biometria hematica</small>
+            </div>
+            <b>$950</b>
+          </article>
+          <article class="account-item">
+            <span class="service-icon">🩻</span>
+            <div>
+              <strong>Imagenologia</strong>
+              <small>Rayos X de torax</small>
+            </div>
+            <b>$1,650</b>
+          </article>
+          <article class="account-item">
+            <span class="service-icon">🚑</span>
+            <div>
+              <strong>Urgencias</strong>
+              <small>Atencion nocturna</small>
+            </div>
+            <b>$3,000</b>
+          </article>
+          <article class="account-item">
+            <span class="service-icon">💊</span>
+            <div>
+              <strong>Farmacia</strong>
+              <small>Medicamento recetado</small>
+            </div>
+            <b>$620</b>
+          </article>
+        </div>
+        <button class="primary-button">Pagar saldo</button>
+      </section>
+    </section>
+
+    <section class="phone schedule-phone">
+      <header class="topbar">
+        <div class="brand">
+          <span class="brand-icon">📂</span>
+          <strong>Historial clinico</strong>
+        </div>
+        <div class="actions">
+          <button class="icon-button">⌂</button>
+          <img class="small-avatar" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=80&q=80" alt="Paciente">
+        </div>
+      </header>
+
+      <section class="visits-hero">
+        <span class="eyebrow">Visitas del paciente</span>
+        <h2>Resumen<br>medico</h2>
+        <p>Consulta diagnosticos, tratamientos y medicamentos indicados.</p>
+      </section>
+
+      <div class="agenda-head">
+        <h2>Ultimas visitas</h2>
+        <div class="actions">
+          <button class="icon-button">⌕</button>
+          <button class="add-button">↓</button>
+        </div>
+      </div>
+
+      <section class="visit-list">
+        <article class="visit-card">
+          <div class="visit-head">
+            <div>
+              <span>15 Marzo 2024</span>
+              <strong>Consulta medicina familiar</strong>
+            </div>
+            <b>Activo</b>
+          </div>
+          <div class="note-block">
+            <small>Diagnostico</small>
+            <p>Infeccion de vias respiratorias altas con congestion nasal y tos seca.</p>
+          </div>
+          <div class="note-block">
+            <small>Tratamiento</small>
+            <p>Paracetamol 500 mg cada 8 horas por 3 dias. Loratadina 10 mg cada 24 horas por 5 dias.</p>
+          </div>
+          <div class="doctor-line">
+            <img src="https://images.unsplash.com/photo-1622902046580-2b47f47f5471?auto=format&fit=crop&w=120&q=80" alt="Doctor">
+            <span>Dr. Marcus Hale</span>
+          </div>
+        </article>
+
+        <article class="visit-card compact-note">
+          <div class="visit-head">
+            <div>
+              <span>02 Marzo 2024</span>
+              <strong>Resultado de laboratorio</strong>
+            </div>
+            <b>Revisado</b>
+          </div>
+          <div class="note-block">
+            <small>Diagnostico</small>
+            <p>Glucosa ligeramente elevada. Se recomienda control alimenticio.</p>
+          </div>
+          <div class="note-block">
+            <small>Indicaciones</small>
+            <p>Metformina 850 mg cada 24 horas con alimento. Repetir estudio en 30 dias.</p>
+          </div>
+        </article>
+
+        <article class="visit-card compact-note">
+          <div class="visit-head">
+            <div>
+              <span>18 Febrero 2024</span>
+              <strong>Servicio de urgencias</strong>
+            </div>
+            <b>Cerrado</b>
+          </div>
+          <div class="note-block">
+            <small>Resumen</small>
+            <p>Dolor abdominal moderado. Se indico hidratacion, reposo y seguimiento.</p>
+          </div>
+        </article>
+      </section>
+    </section>
+  </main>
+</body>
+</html>
